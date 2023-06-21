@@ -1,0 +1,15 @@
+{
+  "name": "hexo-ob-admonition",
+  "version": "1.0.0",
+  "main": "index",
+  "dependencies": {
+    "@upupming/hexo-renderer-markdown-it-plus": "^2.0.2",
+    "@neilsustc/markdown-it-katex": "^0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yefengwu",
+  "license": "MIT",
+  "description": "It enables proper rendering of Obsidian notes in Hexo."
+}

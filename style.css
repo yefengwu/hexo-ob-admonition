@@ -1,0 +1,120 @@
+.admonition {
+  margin: 1.5625em 0;
+  /* padding: 0rem .6rem .6rem .6rem !important; */
+  font-size: 1.00rem;
+  page-break-inside: avoid;
+  /* border: solid #335a9a; */
+  /* border-radius: .3rem; */
+  box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,.05), 0 0 0.05rem rgba(0,0,0,.1);
+  background-color: #171717;
+}
+
+p.admonition-title {
+  position: relative;
+  margin: 0rem !important;
+  padding: .1rem .6rem .4rem .6rem;
+  font-weight: 700;
+  background-color:#335a9a;
+}
+
+p.admonition-content {
+  position: relative;
+  padding: .6rem .6rem;
+  background-color: #171717;
+}
+
+/* .admonition-title::before { */
+/*   position: relative; */
+/*   font-family: "Font Awesome 6 Free"; */
+/*   padding: 0 .6rem 0 0; */
+/*   content: "\f303"; */
+/*   color: #448aff; */
+/* } */
+
+.info>.admonition-title, .todo>.admonition-title {
+  border-left: .2rem solid #207483;
+  border-right: .2rem solid #207483;
+  border-top: .2rem solid #207483;
+  border-bottom: none;
+  border-top-left-radius: .4rem;
+  border-top-right-radius: .4rem;
+  background-color: #205d68;
+}
+
+.info>.admonition-content, .todo>.admonition-content {
+  border-left: .2rem solid #207483;
+  border-right: .2rem solid #207483;
+  border-bottom: .2rem solid #207483;
+  border-top: none;
+  border-bottom-left-radius: .4rem;
+  border-bottom-right-radius: .4rem;
+  background-color: #171717;
+}
+
+.info>.admonition-title::before, .todo>.admonition-title::before {
+  position: relative;
+  font-family: "Font Awesome 6 Free";
+  padding: 0 .6rem 0 0;
+  content: "\f05a";
+  color: #20b8d4;
+}
+
+.warning>.admonition-title, .attention>.admonition-title, .caution>.admonition-title {
+  border-left: .2rem solid #9a5e20;
+  border-right: .2rem solid #9a5e20;
+  border-top: .2rem solid #9a5e20;
+  border-bottom: none;
+  border-top-left-radius: .4rem;
+  border-top-right-radius: .4rem;
+  background-color: #794d20;
+}
+
+.warning>.admonition-content, .attention>.admonition-content, .caution>.admonition-content {
+  border-left: .2rem solid #9a5e20;
+  border-right: .2rem solid #9a5e20;
+  border-bottom: .2rem solid #9a5e20;
+  border-top: none;
+  border-bottom-left-radius: .4rem;
+  border-bottom-right-radius: .4rem;
+  background-color: #171717;
+}
+
+.warning>.admonition-title::before, .attention>.admonition-title::before, .caution>.admonition-title::before {
+  position: relative;
+  font-family: "Font Awesome 6 Free";
+  padding: 0 .6rem 0 0;
+  content: "\f071";
+  color: #9a5e20;
+}
+
+.failure>.admonition-title, .missing>.admonition-title, .fail>.admonition-title, .error>.admonition-title {
+  border-left: .2rem solid #9a3c3c;
+  border-right: .2rem solid #9a3c3c;
+  border-top: .2rem solid #9a3c3c;
+  border-bottom: none;
+  border-top-left-radius: .4rem;
+  border-top-right-radius: .4rem;
+  background-color: #793434;
+}
+
+.failure>.admonition-content, .missing>.admonition-content, .fail>.admonition-content, .error>.admonition-content {
+  border-left: .2rem solid #9a3c3c;
+  border-right: .2rem solid #9a3c3c;
+  border-bottom: .2rem solid #9a3c3c;
+  border-top: none;
+  border-bottom-left-radius: .4rem;
+  border-bottom-right-radius: .4rem;
+  background-color: #171717;
+}
+
+.failure>.admonition-title::before,.missing>.admonition-title::before,.fail>.admonition-title::before,.error>.admonition-title::before{
+  position: relative;
+  font-family: "Font Awesome 6 Free";
+  padding: 0 .6rem 0 0;
+  content: "\f06a";
+  color: #9a3c3c;
+}
+
+.admonition>:last-child {
+  margin-bottom: 0 !important;
+}
